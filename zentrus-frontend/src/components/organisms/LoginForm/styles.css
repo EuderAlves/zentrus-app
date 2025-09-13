@@ -1,0 +1,25 @@
+/* src/components/organisms/LoginForm/styles.css */
+.login-form-box {
+  max-width: 400px;
+  width: 90%;
+}
+
+.login-form {
+  text-align: center;
+  padding: 0;
+}
+
+.login-form h2 {
+  margin-bottom: 5px;
+  color: var(--color-primary);
+}
+
+.login-form p {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: var(--color-primary);
+}
+
+.form-fields {
+  margin-bottom: 20px;
+}

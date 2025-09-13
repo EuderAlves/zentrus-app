@@ -1,0 +1,7 @@
+/* src/components/atoms/Box/styles.css */
+.box {
+  background-color: var(--color-white);
+  border-radius: 8px; /* Borda arredondada padrão */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  padding: 20px;
+}

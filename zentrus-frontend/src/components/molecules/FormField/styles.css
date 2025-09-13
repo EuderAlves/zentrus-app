@@ -1,0 +1,12 @@
+/* src/components/molecules/FormField/styles.css */
+.form-field-container {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.form-field-label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #113a65; /* Azul-marinho para o texto do rótulo */
+}

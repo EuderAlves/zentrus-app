@@ -1,0 +1,67 @@
+/* src/components/atoms/Button/styles.css */
+.button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  text-transform: uppercase;
+  margin: 5px;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* --- Variações de Cores --- */
+
+/* Salvar (Padrão) e Next */
+.button-save,
+.button-next {
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+}
+
+.button-save:hover,
+.button-next:hover {
+  background-color: var(--color-primary);
+}
+
+/* Editar e Submit */
+.button-edit,
+.button-submit {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.button-edit:hover,
+.button-submit:hover {
+  background-color: var(--color-secondary);
+}
+
+/* Excluir */
+.button-delete {
+  background-color: var(--color-danger); /* Usando a nova cor de perigo */
+  color: var(--color-white);
+}
+
+.button-delete:hover {
+  background-color: #c0392b; /* Uma variação mais escura de vermelho */
+}
+
+/* Cancelar e Voltar */
+.button-cancel,
+.button-back {
+  background-color: transparent;
+  border: 2px solid var(--color-highlight);
+  color: var(--color-primary);
+}
+
+.button-cancel:hover,
+.button-back:hover {
+  background-color: var(--color-highlight);
+  color: var(--color-white);
+}

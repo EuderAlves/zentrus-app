@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
+import { LogingPage } from "./pages/LoginPage";
 
 function App() {
   return (
     <div className="App">
-      <h1>Olá, Zentrus!</h1>
+      <LogingPage />
     </div>
   );
 }
